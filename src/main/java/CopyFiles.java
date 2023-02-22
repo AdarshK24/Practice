@@ -44,6 +44,8 @@ public class CopyFiles {
 		copyFile(sourceFile, targetFile);
 
 		System.out.println("copying of file from Java program is completed");
+		int multiple = multiplyNumber(2, 3);
+		System.out.println("multiple : " +multiple + " from Java Program")
 	}
 
 	private static void copyFiles(File sourceFile, File targetFile) {
@@ -90,4 +92,10 @@ public class CopyFiles {
 		System.out.println("Directory successfully created :::::" + path);
 		return path.toString();
 	}
+public static String multiplyNumber(int x, int y) {
+	int x ;
+	int y ;
+	int z = x*y;
+
+	
 }
