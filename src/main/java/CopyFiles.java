@@ -17,9 +17,10 @@ public class CopyFiles {
 //		System.out.println(NewDirectory);
 //		String concat = NewDirectory.concat("/memberId/file");
 //		System.out.println(concat);
+
 		String concat = NewDirectory.concat("/");
 		// here output of above line is ==> A directory is created by the name
-		// Enrolment5
+		// Enrolment5 A new change for practice
 //		
 //		
 //		File source = new File("/home/i-exceed.com/adarsh.kulkarni/DOCUMENTS/EnrolmentId2/MicrosoftTeams-image.png");
@@ -43,6 +44,8 @@ public class CopyFiles {
 		copyFile(sourceFile, targetFile);
 
 		System.out.println("copying of file from Java program is completed");
+		int multiple = multiplyNumber(2, 3);
+		System.out.println("multiple : " +multiple + " from Java Program")
 	}
 
 	private static void copyFiles(File sourceFile, File targetFile) {
@@ -89,4 +92,10 @@ public class CopyFiles {
 		System.out.println("Directory successfully created :::::" + path);
 		return path.toString();
 	}
+public static String multiplyNumber(int x, int y) {
+	int x ;
+	int y ;
+	int z = x*y;
+
+	
 }
